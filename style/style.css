@@ -1,0 +1,165 @@
+* {
+    font-family: "Karla" (https: //fonts.google.com/specimen/Karla);
+    }
+
+    body {
+        background: hsl(148, 38%, 91%) fixed center/cover;
+        display: flex;
+        padding: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input,
+    button,
+    textarea {
+        border-radius: 5px;
+        border: 1px solid rgba(56, 90, 66, 0.559);
+        margin: 5px 0;
+        height: 2rem;
+        padding: 4px;
+    }
+
+    textarea {
+        border-radius: 5px;
+        border: 1px solid rgba(56, 90, 66, 0.559);
+        margin: 5px 0;
+        height: 5rem;
+        padding: 4px;
+        resize: none;
+    }
+
+    button {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 5, 7, 0.474);
+        margin: 5px 0;
+        height: 3rem;
+        padding: 4px;
+        background-color: hsl(169, 82%, 27%);
+        color: white;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: auto;
+    }
+
+    label {
+        margin-top: 16px;
+        left: 30px;
+        color: rgba(0, 6, 8, 0.486);
+    }
+
+    /*************************************** balise in class ******************************/
+
+    .bx_radio label {
+        margin: 12px;
+    }
+
+    .checkbox label {
+        margin: 12px;
+    }
+
+    .name input {
+        width: 265px;
+    }
+
+
+
+    /*************************************** class ************************************/
+
+    .bx_general {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        padding: 30px;
+
+    }
+
+    .big_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bx_name {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .name,
+    .bx_Email,
+    .bx_message,
+    .gbx_radio {
+        text-align: left;
+        padding: 1px 4px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .bx_radio {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .radiod {
+        border: solid 1px rgba(56, 90, 66, 0.559);
+        height: auto;
+        width: 12rem;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 1px 15px;
+        display: inline-flex;
+    }
+
+    textarea,
+    input {
+        color: rgba(0, 0, 0, 0.331);
+    }
+
+    .radiodv {
+        border: solid 1px rgba(56, 90, 66, 0.559);
+        height: auto;
+        width: 12rem;
+        border-radius: 5px;
+        margin: 5px;
+        flex-direction: row;
+        padding: 1px 15px;
+        display: inline-flex;
+    }
+
+
+    /**************************************** hover  *********************************************/
+
+    input:hover,
+    textarea:hover,
+    .ipradio:Hover {
+        border: 2px solid hsl(169, 82%, 27%);
+       
+        color: rgba(2, 7, 6, 0.733);
+    }
+    .radiodv:hover,
+    .radiod:hover{
+        background-color: hsla(169, 82%, 27%, 0.21);
+        border: 2px solid hsl(169, 82%, 27%);
+        color: rgba(2, 7, 6, 0.733);
+    }
+
+
+   
+
+    /******************************************** format Mobile ***********************************************/
+
+    @media all and (max-width: 375px) {
+        .bx_general {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }

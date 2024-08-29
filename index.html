@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Contact form</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <div class="bx_general">
+    <h1>Contact Us</h1>
+    <div class="big_box">
+      <div class="bx_name">
+        <div class="name">
+          <label for="">First Name *</label>
+          <input type="text" required>
+        </div>
+
+        <div class="name">
+          <label for="">Last Name *</label>
+          <input type="text" required>
+        </div>
+      </div>
+
+      <div class="bx_Email">
+        <label for="">Email Adress *</label>
+        <input type="email" id="Email_adresse" required>
+      </div>
+
+      <div class="gbx_radio">
+        <label for="radio">Query Type *</label>
+
+        <div class="bx_radio">
+          <div class="radiodv">
+            <input type="radio" name="type" checked value="" class="ipradio">
+            <label for="type" class="radio"> General Enquity</label>
+          </div>
+
+          <div class="radiod">
+            <input type="radio" name="type" class="ipradio">
+            <label for="" class="radio">Support Request</label>
+          </div>
+        </div>
+
+        <div class="bx_message">
+          <label for="message">Message *</label>
+          <textarea name="" id="" cols="30" rows="5" required></textarea>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" class="ipradio" required>
+          <label for="" class="radio">I consent to being contacted by the team </label>
+        </div>
+        <button> Submit </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
